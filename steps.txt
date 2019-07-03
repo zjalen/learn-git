@@ -1,1 +1,9 @@
 This is the first line.
+Step 1
+git init # 初始化一个版本库
+git add -A . # 添加所有文件到暂存区
+git status # 查看当前版本库的状态
+git commit -m "备注" # 提交到本地库
+git remote add origin git@github.com:zjalen/learn-git.git # 关联线上版本
+git push -u origin master # 首次推送到线上
+git clone # 直接从线上克隆到本地。
