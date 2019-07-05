@@ -45,9 +45,6 @@ git push origin dev  # 将本地 dev 分支上传到线上仓库
 
 git pull # 从线上同步到本地
 
-git log --graph --pretty=oneline --abbrev-commit  # 显示 ASCII 图形表示的分支合并历史
-> # --graph 显示 ASCII 图形表示的分支合并历史
-# --pretty=oneline  优化显示效果
-# --abbrev-commit 显示部分版本号而非全部
+git log --graph --pretty=oneline --abbrev-commit  # 显示 ASCII 图形表示的分支合并历史 --graph 显示 ASCII 图形表示的分支合并历史 --pretty=oneline  优化显示效果 --abbrev-commit 显示部分版本号而非全部
 
 git rebase  # 变基操作
