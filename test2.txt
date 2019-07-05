@@ -4,3 +4,4 @@ This is the third line.
 Something from master.
 This line from A.
 Edit By A on Same Line.
+Edit By B on Same Line.
