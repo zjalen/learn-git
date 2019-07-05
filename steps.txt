@@ -15,3 +15,15 @@ git reflog # 查看所有分支历史
 git reset --hard <版本号> # 回到指定版本，版本号或者 HEAD 指针位置
 git push # 推送到远程库
 git clone <远程地址> # 克隆远程库到本地
+Step 3
+git branch <分支名>  # 创建分支
+git checkout <分支名> # 切换分支
+git branch  # 查看分支
+git merge <分支名>  # 把指定分支内容合并到当前分支
+git push origin dev  # 将本地 dev 分支上传到线上仓库
+git pull # 从线上同步到本地
+git log --graph --pretty=oneline --abbrev-commit  # 显示 ASCII 图形表示的分支合并历史
+# --graph 显示 ASCII 图形表示的分支合并历史
+# --pretty=oneline  优化显示效果
+# --abbrev-commit 显示部分版本号而非全部
+git rebase  # 变基操作
