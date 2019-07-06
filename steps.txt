@@ -29,3 +29,4 @@ git log --graph --pretty=oneline --abbrev-commit  # 显示 ASCII 图形表示的
 git rebase  # 变基操作
 Step 4
 git tag <标签号> # 添加标签
+git tag -d <标签名> # 删除标签
