@@ -38,3 +38,19 @@ git pull # 从线上同步到本地
 git log --graph --pretty=oneline --abbrev-commit  # 显示 ASCII 图形表示的分支合并历史 --graph 显示 ASCII 图形表示的分支合并历史 --pretty=oneline  优化显示效果 --abbrev-commit 显示部分版本号而非全部
 git rebase  # 变基操作
 ```
+
+### Step 4
+
+```bash
+git tag <标签>  # 添加标签
+git tag -d <标签号>  # 删除标签
+git tag -a <标签> -m "备注" <版本号>  # 指定版本号标签与备注
+git show <标签> # 查看更多标签信息
+git push origin <标签>  # 推送某一个标签
+git stash  # 使用 stash 命令进行保存
+git stash list # 查看 stash 列表
+git stash apply  # 应用恢复 stash
+git stash apply stash@{n} # 应用恢复指定版本 stash
+git stash drop  # 删除缓存的 stash
+git stash pop # 应的同时删除
+```
